@@ -51,7 +51,6 @@ app.get('/users/:id', (req, res) => {
             res.status(500).json(err)
         }
     })
-
 })
 
 // Post New User
